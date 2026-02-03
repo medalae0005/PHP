@@ -27,7 +27,7 @@
 <?php
 $result = "";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["num1"]) && isset($_POST["num2"]) && isset($_POST["operation"])) {
     $num1 = $_POST["num1"];
     $num2 = $_POST["num2"];
     $op   = $_POST["operation"];
