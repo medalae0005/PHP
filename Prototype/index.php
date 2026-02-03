@@ -13,7 +13,7 @@
     <select name="operation">
         <option value="+">+</option>
         <option value="-">-</option>
-        <option value="*"></option>
+        <option value="*">*</option>
         <option value="/">/</option>
     </select>
 
@@ -22,7 +22,6 @@
 
     <input type="submit" value="Calculate">
 </form>
-
 
 <?php
 $result = "";
